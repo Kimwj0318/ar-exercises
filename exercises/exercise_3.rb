@@ -6,3 +6,6 @@ puts "Exercise 3"
 puts "----------"
 
 # Your code goes here ...
+Store.destroy_by(id: 3)
+
+puts Store.count
