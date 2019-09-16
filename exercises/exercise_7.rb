@@ -10,3 +10,6 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+@name = gets.chomp
+validation = Store.create(name: @name)
+p validation.errors.messages
